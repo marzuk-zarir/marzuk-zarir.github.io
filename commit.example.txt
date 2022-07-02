@@ -1,0 +1,14 @@
+Tags:-
+
+✨ Feat - Add new features
+📝 Post - Add or Update new post
+💡 Docs - Add or Update documentation
+🔨 Ref - Refactor some codes
+🐛 Fix - Bug fixes
+👕 Lint - Format or lint
+
+Message:-
+
+<Tag>: <Heading>
+
+<Body (optional)>
