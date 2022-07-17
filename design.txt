@@ -1,0 +1,9 @@
+primary color -> indigo-500 or emerald-500
+primary color alt -> indigo-600 or emerald-400
+primary color lighter -> violet-300 or emerald-200
+title color -> neutral-800
+text color -> gray-500
+text color lighter -> zinc-400
+input color -> indigo-50 or emerald-50
+body color -> zinc-50
+footer text -> gray-400

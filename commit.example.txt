@@ -1,9 +1,9 @@
 Tags:-
 
 ✨ Feat - Add new features
-📝 Post - Add or Update new post
+🔨 Ref - Refactor code
 💡 Docs - Add or Update documentation
-🔨 Ref - Refactor some codes
+📝 Post - Add or Update new post
 🐛 Fix - Bug fixes
 👕 Lint - Format or lint
 
