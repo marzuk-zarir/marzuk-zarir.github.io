@@ -1,0 +1,11 @@
+.typewriter-text {
+    color: rgb(99, 102, 241);
+    margin-left: 0.5rem;
+}
+
+.typewriter-cursor {
+    color: rgb(99, 102, 241);
+    margin-left: 1px;
+    -webkit-animation: Typewriter-cursor 1.3s infinite;
+    animation: Typewriter-cursor 1.3s infinite;
+}

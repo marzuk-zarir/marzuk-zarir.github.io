@@ -1,3 +1,14 @@
+import AboutSection from '../components/AboutSection'
+import HomeSection from '../components/HomeSection'
+import { useAppConfig } from '../contexts/AppConfigContext'
+
 export default function Home() {
-    return <h1>Home Page</h1>
+    const { socialLinks } = useAppConfig()
+
+    return (
+        <>
+            <HomeSection socialLinks={socialLinks} />
+            <AboutSection />
+        </>
+    )
 }

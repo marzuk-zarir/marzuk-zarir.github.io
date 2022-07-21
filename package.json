@@ -25,7 +25,8 @@
         "react-dom": "18.2.0",
         "react-icons": "^4.4.0",
         "react-responsive": "^9.0.0-beta.10",
-        "twin.macro": "^3.0.0-rc.3"
+        "twin.macro": "^3.0.0-rc.3",
+        "typewriter-effect": "^2.19.0"
     },
     "devDependencies": {
         "eslint": "^8.18.0",

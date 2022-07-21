@@ -31,6 +31,16 @@ export default {
     ],
     socialLinks: [
         {
+            name: 'Github',
+            url: 'https://github.com',
+            icon: BsGithub
+        },
+        {
+            name: 'Twitter',
+            url: 'https://twitter.com',
+            icon: BsTwitter
+        },
+        {
             name: 'facebook',
             url: 'https://facebook.com',
             icon: BsFacebook
@@ -39,16 +49,6 @@ export default {
             name: 'Instagram',
             url: 'https://instagram.com',
             icon: BsInstagram
-        },
-        {
-            name: 'Twitter',
-            url: 'https://twitter.com',
-            icon: BsTwitter
-        },
-        {
-            name: 'Github',
-            url: 'https://github.com',
-            icon: BsGithub
         }
     ]
 }

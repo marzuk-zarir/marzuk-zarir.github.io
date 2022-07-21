@@ -1,3 +1,5 @@
+import '../styles/style.css'
+
 import { cache } from '@emotion/css'
 import { CacheProvider } from '@emotion/react'
 import Layout from '../components/Layout'
