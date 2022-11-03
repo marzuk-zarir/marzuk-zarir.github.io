@@ -3,12 +3,13 @@ const seo = {
         title: 'Marzuk Zarir - Fullstack Developer',
         description:
             'Hey, I am a self taught fullstack developer who loves to build things for the web with 100% client satisfaction.',
+        canonical: 'https://marzuk-zarir.github.io',
         themeColor: '#3b82f6',
         openGraph: {
             title: 'Marzuk Zarir - Fullstack Developer',
             description:
                 'Hey, I am a self taught fullstack developer who loves to build things for the web with 100% client satisfaction.',
-            url: 'https://www.marzuk-zarir.github.io',
+            url: 'https://marzuk-zarir.github.io',
             type: 'profile',
             profile: {
                 firstName: 'Marzuk',
@@ -18,7 +19,7 @@ const seo = {
             },
             images: [
                 {
-                    url: 'https://www.marzuk-zarir.github.io/marzuk-zarir.png',
+                    url: 'https://marzuk-zarir.github.io/assets/marzuk-zarir.jpg',
                     width: 360,
                     height: 360,
                     alt: 'Marzuk Zarir'
@@ -30,17 +31,17 @@ const seo = {
         socialProfileJsonLd: {
             type: 'Person',
             name: 'Marzuk Zarir',
-            url: 'https://www.marzuk-zarir.github.io',
+            url: 'https://marzuk-zarir.github.io',
             sameAs: [
-                'https://www.facebook.com/marzukzarir',
-                'https://www.instagram.com/marzuk._.zarir',
-                'https://www.twitter.com/marzukzarir',
-                'https://www.linkedin.com/in/marzuk-zarir'
+                'https://facebook.com/marzukzarir',
+                'https://instagram.com/marzuk._.zarir',
+                'https://twitter.com/marzukzarir',
+                'https://linkedin.com/in/marzuk-zarir'
             ]
         },
         webpageJsonLd: {
             description: 'What does the fox say?',
-            id: 'https://www.marzuk-zarir.github.io/#home',
+            id: 'https://marzuk-zarir.github.io/#home',
             lastReviewed: new Date().toISOString(),
             reviewedBy: {
                 type: 'Person',
