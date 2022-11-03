@@ -4,7 +4,7 @@ import Subtitle from '@/components/common/Subtitle'
 import Title from '@/components/common/Title'
 import sendEmail from '@/utils/sendEmail'
 import clsx from 'clsx'
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { FaCheckCircle, FaExclamationCircle, FaPaperPlane, FaSpinner } from 'react-icons/fa'
 
 export default function Contact() {
@@ -14,12 +14,12 @@ export default function Contact() {
     const [error, setError] = useState(false)
     const [success, setSuccess] = useState(false)
 
-    const iconComponent = useMemo(() => {
+    const iconComponent = () => {
         if (loading) return FaSpinner
         if (error) return FaExclamationCircle
         if (success) return FaCheckCircle
         return FaPaperPlane
-    }, [loading, error, success])
+    }
 
     const changeHandler = (e) => {
         setContact((contact) => ({
@@ -31,15 +31,15 @@ export default function Contact() {
     const submitHandler = (e) => {
         e.preventDefault()
 
-        setLoading(true)
-
         setTimeout(async () => {
+            setLoading(true)
+
             try {
                 const response = await sendEmail(contact)
 
                 if (response.status === 200) {
-                    setLoading(false)
                     setSuccess(true)
+                    setLoading(false)
                     setStatus('Message Sent')
                     e.target.reset()
                 } else {
@@ -47,8 +47,8 @@ export default function Contact() {
                 }
             } catch (error) {
                 console.log(error)
-                setLoading(false)
                 setError(true)
+                setLoading(false)
                 setStatus('Something went wrong')
             }
         }, 1000)
@@ -103,7 +103,7 @@ export default function Contact() {
                     <Button
                         as="button"
                         type="submit"
-                        icon={iconComponent}
+                        icon={iconComponent()}
                         className={clsx(
                             'mx-auto mt-5 px-14 md:col-span-2 disabled:cursor-not-allowed disabled:opacity-70 disabled:shadow-none',
                             success && '!bg-emerald-500',
