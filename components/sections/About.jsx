@@ -1,9 +1,9 @@
 import Animate from '@/components/common/Animate'
-import Button from '@/components/common/Button'
+// import Button from '@/components/common/Button'
 import Title from '@/components/common/Title'
 import about from '@/data/about'
 import CountUp from 'react-countup'
-import { FaFilePdf } from 'react-icons/fa'
+// import { FaFilePdf } from 'react-icons/fa'
 
 export default function About() {
     return (
@@ -66,14 +66,15 @@ export default function About() {
                                 <div className="font-semibold">Completed Works</div>
                             </div>
                         </div>
-                        <Button
+                        {/* disable temporary */}
+                        {/* <Button
                             href={about.resumeLink}
                             target="__blank"
                             icon={FaFilePdf}
                             className="mx-auto"
                         >
                             View Resume
-                        </Button>
+                        </Button> */}
                     </div>
                 </div>
             </div>

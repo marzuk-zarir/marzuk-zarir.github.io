@@ -2,13 +2,13 @@ const seo = {
     defaultSeo: {
         title: 'Marzuk Zarir - Fullstack Developer',
         description:
-            'Hey, I am a self taught fullstack developer who loves to build things for the web with 100% client satisfaction.',
+            'Hey, I am a professional fullstack developer who loves to build things for the web with 100% client satisfaction.',
         canonical: 'https://marzuk-zarir.github.io',
         themeColor: '#3b82f6',
         openGraph: {
             title: 'Marzuk Zarir - Fullstack Developer',
             description:
-                'Hey, I am a self taught fullstack developer who loves to build things for the web with 100% client satisfaction.',
+                'Hey, I am a professional fullstack developer who loves to build things for the web with 100% client satisfaction.',
             url: 'https://marzuk-zarir.github.io',
             type: 'profile',
             profile: {

@@ -1,12 +1,12 @@
 const about = {
     introduction: (
         <>
-            I&apos;m a self-taught web developer with a passion for creating beautiful and
-            functional websites. I have been working with web technologies for over last 2 years. I
-            have worked on a wide range of personal projects. I am currently working as a freelance
-            developer at{' '}
+            I&apos;m a professional fullstack web developer with a passion for creating beautiful
+            and functional websites. I have been working with web technologies for over last 3
+            years. I have worked on a wide range of personal projects. I am currently working as a
+            freelance developer at{' '}
             <a
-                href="https://upwork.com"
+                href="https://upwork.com/freelancers/~01add2cd729379c0df"
                 target="_blank"
                 rel="noreferrer"
                 className="text-indigo-500 hover:underline"
