@@ -69,7 +69,7 @@ export default function Contact() {
                     <Input
                         name="name"
                         label="Your Name"
-                        placeholder="ex: john doe"
+                        placeholder="you name here"
                         values={contact.name}
                         onChange={changeHandler}
                         pattern="[a-zA-Z1-9-_ ]{4,12}"
@@ -82,7 +82,7 @@ export default function Contact() {
                         label="Your Email"
                         values={contact.email}
                         onChange={changeHandler}
-                        placeholder="ex: johndoe@gmail.com"
+                        placeholder="your email here"
                         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                         title="Please enter a valid email address"
                         required
@@ -93,7 +93,7 @@ export default function Contact() {
                         label="Your Message"
                         values={contact.message}
                         onChange={changeHandler}
-                        placeholder="leave a comment"
+                        placeholder="leave a message here"
                         className="form-textarea min-h-[250px]"
                         elClassName="md:col-span-2"
                         pattern=".{10,200}"

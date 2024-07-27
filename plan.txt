@@ -1,0 +1,4 @@
+1. video testimonials
+2. certificates & educational background
+3. static markdown articles with liking features
+4. package pricing plans

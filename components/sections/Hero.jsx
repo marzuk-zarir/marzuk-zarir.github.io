@@ -39,7 +39,7 @@ export default function Hero() {
                                     href={social.link}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="text-zinc-500 hover:text-zinc-600 dark:text-current dark:hover:text-neutral-300 transition-colors"
+                                    className="text-zinc-600 hover:text-zinc-700 dark:text-current dark:hover:text-neutral-300 transition-colors"
                                     aria-label={social.name}
                                 >
                                     <social.icon className="w-7 h-7" />

@@ -19,7 +19,7 @@ export default function Discount() {
                                 animateClass="animate-flash animate-repeat-2"
                                 animateDurationClass="animate-duration-1000"
                             >
-                                20% discount
+                                15% discount
                             </Animate>{' '}
                             on your first project
                         </p>

@@ -4,7 +4,7 @@ import Discount from '@/components/sections/Discount'
 import Hero from '@/components/sections/Hero'
 import Portfolio from '@/components/sections/Portfolio'
 import Services from '@/components/sections/Services'
-import Testimonial from '@/components/sections/Testimonial'
+// import Testimonial from '@/components/sections/Testimonial'
 import Layout from '@/layouts/Layout'
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
             <About />
             <Services />
             <Portfolio />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Discount />
             <Contact />
         </Layout>

@@ -1,6 +1,5 @@
 const home = {
-    introduction:
-        'A professional fullstack developer with a passion for building beautiful and performant web applications.',
+    introduction: 'Transforming Ideas into Stunning and High-Performance Web Applications',
     heroImage: 'assets/marzuk-zarir.jpg'
 }
 
