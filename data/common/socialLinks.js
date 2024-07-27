@@ -1,11 +1,6 @@
-import { FaGithub, FaLinkedin, FaSkype, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaSkype } from 'react-icons/fa'
 
 const socialLinks = [
-    {
-        name: 'Twitter',
-        icon: FaTwitter,
-        link: 'https://twitter.com/marzukzarir'
-    },
     {
         name: 'LinkedIn',
         icon: FaLinkedin,

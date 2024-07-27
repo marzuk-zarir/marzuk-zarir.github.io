@@ -10,7 +10,7 @@ export default function Services() {
                 <Title as="h3" className="!mb-6">
                     My Services
                 </Title>
-                <Subtitle>How I Help You Succeed</Subtitle>
+                <Subtitle>Transforming Your Vision</Subtitle>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-14">
                     {services.map((service, index) => (
                         <Animate
@@ -20,7 +20,7 @@ export default function Services() {
                         >
                             <service.icon className="text-5xl text-indigo-500" />
                             <h4 className="text-xl font-bold">{service.title}</h4>
-                            <p>{service.description}</p>
+                            <p className="text-center">{service.description}</p>
                         </Animate>
                     ))}
                 </div>

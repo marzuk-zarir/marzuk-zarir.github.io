@@ -12,7 +12,7 @@ export default function About() {
                 <Title as="h2">About Me</Title>
                 <div className="grid lg:grid-cols-2 gap-20">
                     <div className="order-2 lg:order-1">
-                        <p className="text-2xl font-bold mb-5">My Skills</p>
+                        <p className="text-2xl font-bold mb-5">Areas of Expertise</p>
                         <div className="flex flex-wrap gap-3 text-sm lg:text-base text-neutral-500 dark:text-neutral-400 font-bold">
                             {about.skills.map((skill, index) => (
                                 <Animate

@@ -12,7 +12,7 @@ export default function Document() {
                 />
                 <Script src="/theme.js" strategy="beforeInteractive" />
             </Head>
-            <body className="text-lg text-gray-600 dark:text-neutral-400 dark:bg-neutral-900 relative min-h-screen">
+            <body className="text-lg text-gray-600 dark:text-neutral-400 dark:bg-neutral-950 relative min-h-screen">
                 <Main />
                 <NextScript />
             </body>

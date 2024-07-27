@@ -1,43 +1,41 @@
 const about = {
     introduction: (
         <>
-            I&apos;m a professional fullstack web developer with a passion for creating beautiful
-            and functional websites. I have been working with web technologies for over last 3
-            years. I have worked on a wide range of personal projects. I am currently working as a
-            freelance developer at{' '}
-            <a
-                href="https://upwork.com/freelancers/~01add2cd729379c0df"
-                target="_blank"
-                rel="noreferrer"
-                className="text-indigo-500 hover:underline"
-            >
-                Upwork.com
-            </a>{' '}
+            I am a professional Full Stack Developer with over four years of experience in creating
+            beautiful and functional web applications. My expertise spans a wide range of web
+            technologies, and I have a proven track record of delivering high-quality solutions.
+            <br />
+            <br />
+            Previously, I worked as an independent developer on Upwork, where I successfully
+            completed numerous projects. Since 2022, I have been working on a contract basis,
+            continuing to bring my skills and dedication to various clients.
         </>
     ),
     experience: {
-        yearsOfExperience: 2,
+        yearsOfExperience: 4,
         completedProjects: 50,
-        completedWorks: 5
+        completedWorks: 10
     },
     resumeLink: 'https://resume.io/r/GXjBHm9vj',
     skills: [
         'HTML',
         'CSS',
         'JavaScript',
-        'Sass',
+        'TypeScript',
         'React',
         'Firebase',
         'Tailwind CSS',
         'Bootstrap',
-        'Material UI',
+        'Git',
+        'Jamstack',
         'Redux',
+        'React Query',
         'Next.js',
         'MongoDB',
-        'Express',
-        'Mysql',
-        'Node',
-        'Figma',
+        'Expressjs',
+        'Node.js',
+        'PostgreSQL',
+        'Prisma',
         'Github Actions',
         'Docker',
         'Travis CI'

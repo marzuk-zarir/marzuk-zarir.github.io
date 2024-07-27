@@ -40,7 +40,8 @@ const seo = {
             ]
         },
         webpageJsonLd: {
-            description: 'What does the fox say?',
+            description:
+                'Professional Full Stack Developer with 4+ years of experience in creating beautiful, functional web applications. Expertise in diverse web technologies and a proven track record of delivering high-quality solutions. Former Upwork freelancer, now providing contract-based services since 2022.',
             id: 'https://marzuk-zarir.github.io/#home',
             lastReviewed: new Date().toISOString(),
             reviewedBy: {

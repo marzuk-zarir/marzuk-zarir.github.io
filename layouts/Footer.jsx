@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <footer className="py-14 bg-neutral-900 dark:bg-neutral-800 text-neutral-400">
+        <footer className="py-14 bg-neutral-900 text-neutral-400">
             <div className="container flex flex-col items-center text-base text-center gap-10">
                 <ul className="flex flex-col md:flex-row justify-center gap-4 font-semibold">
                     {Object.keys(menus).map((menu, index) => (
@@ -30,7 +30,7 @@ export default function Footer() {
                         </li>
                     ))}
                 </ul>
-                <p className="text-base">&copy; 2023 Marzuk Zarir. All rights reserved.</p>
+                <p className="text-base">&copy; 2024 Marzuk Zarir. All rights reserved.</p>
             </div>
         </footer>
     )

@@ -3,7 +3,7 @@ const menus = {
     About: 'about',
     Services: 'services',
     Portfolio: 'portfolio',
-    Testimonial: 'testimonial',
+    // Testimonial: 'testimonial',
     Contact: 'contact'
 }
 
